@@ -12351,6 +12351,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin: 0;
   padding: 0;
   height: auto;
+  background-color: #212121;
 }
 
 body {
