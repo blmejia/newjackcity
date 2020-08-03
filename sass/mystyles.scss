@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.stream{
+   margin-top: 10%;
+    .title{
+       display: flex;
+       justify-content: center;
+    }
+    .icons{
+    display: flex;
+    justify-content: space-evenly;
+    }
+}
