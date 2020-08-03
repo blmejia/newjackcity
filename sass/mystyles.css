@@ -12352,8 +12352,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 0;
 }
 
+.landing {
+  height: auto;
+  margin-bottom: 20%;
+}
+
 .stream {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .stream .title {
