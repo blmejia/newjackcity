@@ -12355,7 +12355,23 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 body {
   background-color: #212121;
-  height: auto;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #212121;
+}
+
+.navbar .navbar-item {
+  color: white;
+}
+
+.navbar .burger {
+  color: white;
+}
+
+.navbar .navbar-menu {
+  background-color: #212121;
 }
 
 .stream {
@@ -12363,6 +12379,7 @@ body {
 }
 
 .stream .title {
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12372,6 +12389,7 @@ body {
 }
 
 .stream .icons {
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

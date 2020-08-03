@@ -10,18 +10,32 @@
 
 body{
     background-color: #212121;
-    height: auto;
+    height: 100vh;
 }
 
+.navbar{
+    background-color: #212121;
+    .navbar-item{
+        color: white;
+    }
+    .burger{
+        color: white;
+    }
+    .navbar-menu{
+        background-color: #212121;
+    }
+}
 
 
 .stream{
    margin-top: 5%;
     .title{
+       color: #fff;
        display: flex;
        justify-content: center;
     }
     .icons{
+    color: #fff;
     display: flex;
     justify-content: space-evenly;
     }
