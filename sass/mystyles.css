@@ -12401,7 +12401,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .cover {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12409,11 +12409,23 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cover p {
+  color: white;
 }
 
 .cover img {
   width: 256px;
   border-radius: 5%;
   height: 256px;
+}
+
+.cover .hello {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 5%;
 }
 /*# sourceMappingURL=mystyles.css.map */
