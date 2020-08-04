@@ -12356,7 +12356,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .navbar {
-  background-color: transparent;
+  background-color: #212121;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
