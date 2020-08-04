@@ -12368,7 +12368,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .navbar .navbar-menu {
+  letter-spacing: 0.15em;
   background-color: #212121;
+}
+
+.navbar .z strong {
+  background-color: #2793da;
 }
 
 .stream {
