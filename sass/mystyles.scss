@@ -13,6 +13,10 @@
 
 .navbar{
     background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
     .navbar-item{
         color: white;
     }
@@ -22,6 +26,7 @@
     .navbar-menu{
         letter-spacing: 0.15em;
         background-color: #212121;
+        width: 100%;
 
         
     }

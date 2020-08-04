@@ -12357,6 +12357,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .navbar {
   background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .navbar .navbar-item {
@@ -12370,6 +12378,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar .navbar-menu {
   letter-spacing: 0.15em;
   background-color: #212121;
+  width: 100%;
 }
 
 .navbar .z strong {
