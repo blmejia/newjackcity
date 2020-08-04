@@ -12351,6 +12351,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin: 0;
   padding: 0;
   height: auto;
+  overflow-y: hidden;
+  background-color: #212121;
 }
 
 .navbar {
@@ -12391,5 +12393,22 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.cover {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cover img {
+  width: 256px;
+  border-radius: 5%;
+  height: 256px;
 }
 /*# sourceMappingURL=mystyles.css.map */
