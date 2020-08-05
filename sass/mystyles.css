@@ -12390,8 +12390,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: none;
   width: 75%;
   left: 15%;
-  -webkit-filter: drop-shadow(1px 2px 3px black);
-          filter: drop-shadow(1px 2px 3px black);
+  -webkit-filter: drop-shadow(10px 10px 10px black);
+          filter: drop-shadow(10px 10px 10px black);
 }
 
 .stream {
