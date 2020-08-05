@@ -12352,7 +12352,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 0;
   height: auto;
   overflow-y: hidden;
-  background-color: #212121;
 }
 
 .navbar {
@@ -12383,6 +12382,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .navbar .z strong {
   background-color: #2793da;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  background-color: none;
+  width: 75%;
+  left: 15%;
+  -webkit-filter: drop-shadow(1px 2px 3px black);
+          filter: drop-shadow(1px 2px 3px black);
 }
 
 .stream {
