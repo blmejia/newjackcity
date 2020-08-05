@@ -40,7 +40,9 @@
     top: 50%;
     background-color: none;
     width: 75%;
-    left: 15%;
+    left: 50%;
+    transform: translateX(-50%)
+    translateY(-50%);
     filter: drop-shadow(10px 10px 10px black);
 }
 
