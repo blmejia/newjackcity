@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    overflow-y: hidden;
 }
 
 body{
@@ -31,4 +31,8 @@ nav{
             margin-left: 5%;
         }
     }
+}
+
+.card{
+    margin: 10%;
 }
