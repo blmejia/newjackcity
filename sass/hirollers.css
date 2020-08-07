@@ -12380,4 +12380,12 @@ nav {
 .card {
   margin: 10%;
 }
+
+.card span {
+  margin: 8%;
+}
+
+.card .is-48x48 {
+  border-radius: 50%;
+}
 /*# sourceMappingURL=hirollers.css.map */
