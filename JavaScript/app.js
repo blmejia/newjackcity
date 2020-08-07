@@ -23,3 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
   });
+
+  $("#custom-close").modal({
+    closeClass: 'icon-remove',
+    closeText: '!'
+  });
