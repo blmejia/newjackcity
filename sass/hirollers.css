@@ -12373,6 +12373,10 @@ nav {
           justify-content: space-between;
 }
 
+.modal #close {
+  z-index: 4;
+}
+
 .tile {
   margin: 10%;
 }

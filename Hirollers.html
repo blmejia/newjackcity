@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="sass/hirollers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -14,9 +15,27 @@
         <li><a href="/index.html">Home</a></li>
         <li class="is-active"><a href="#" aria-current="page">HiRollers</a></li>
       </ul>
-      <button class="button is-dark is-small">STREAM MUSIC</button>
+      
+      <button class="button is-dark is-small"> <a href="#ex1" rel="modal:open">STREAM MUSIC</a> </button>
+    
+      
     </nav>
     
+    <div id="ex1" class="modal">
+      <a class="navbar-item">
+        <i class="fab fa-spotify"></i> Spotify
+      </a>
+      <a class="navbar-item" href="https://music.apple.com/us/artist/hirollers/1511234686" target="blank">
+        <i class="fab fa-apple"></i>    Apple Music
+      </a>
+      <hr class="navbar-divider">
+      <a class="navbar-item" href="https://soundcloud.com/newjack10455" target="blank">
+        <i class="fab fa-soundcloud"></i> SoundCloud
+      </a>
+      <a href="#" rel="modal:close" id="close"></a>
+    </div>
+
+
       <p class="subtitle greet">Meet the HiRollers...</p> 
      
         
@@ -24,7 +43,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image">
-          <video width="400" controls   >
+          <video width="auto" controls   >
             <source src="/RPReplay_Final1596834591.mov" type="video/mp4">
         </video>
         </figure>
@@ -55,7 +74,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image">
-          <video width="400" controls >
+          <video width="auto" controls >
             <source src="/RPReplay_Final1596835179.mov" type="video/mp4">
         </video>
         </figure>
@@ -82,7 +101,8 @@
       </div>
     </div>
 
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
       <script src="JavaScript/app.js"></script>
   </body>
 </html>
