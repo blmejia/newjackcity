@@ -12366,4 +12366,13 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.tile {
+  margin: 10%;
+}
+
+.tile article img {
+  border-radius: 5%;
+  margin-left: 5%;
+}
 /*# sourceMappingURL=hirollers.css.map */

@@ -21,8 +21,14 @@ nav{
 
 }
 
-.tile{
+.tile{ 
+  margin: 10%;
+  
     article{
-        
+      
+        img{
+            border-radius: 5%;
+            margin-left: 5%;
+        }
     }
 }
