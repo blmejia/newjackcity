@@ -12358,6 +12358,11 @@ body {
   background-color: #212121;
 }
 
+.greet {
+  margin: 10%;
+  color: white;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12387,5 +12392,10 @@ nav {
 
 .card .is-48x48 {
   border-radius: 50%;
+}
+
+.intro {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=hirollers.css.map */
