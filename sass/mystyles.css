@@ -12354,6 +12354,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   overflow-y: hidden;
 }
 
+body {
+  background-color: #212121;
+}
+
 .navbar {
   background-color: #212121;
   display: -webkit-box;
@@ -12447,5 +12451,82 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin: 10%;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/nyc.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/nyc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .logo {
+    width: 30%;
+    top: 15%;
+    left: 20%;
+  }
+  .cover-desktop {
+    margin: 10%;
+    margin-top: 15%;
+    width: 20%;
+  }
+  .cover-desktop img {
+    border-radius: 5%;
+  }
+  .cover-desktop p {
+    margin-left: 15%;
+    color: white;
+  }
+  .cover-desktop button {
+    margin-left: 35%;
+  }
+  .desktop-tiles {
+    top: 30%;
+    width: 50%;
+  }
+  .desktop-tiles .is-primary {
+    background-color: #212121;
+  }
+  .desktop-tiles .is-primary p {
+    margin-left: 25%;
+  }
+  .desktop-tiles .is-primary i {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 32px;
+    margin-left: 20%;
+  }
+  .desktop-tiles .tile {
+    height: 60vh;
+    width: auto;
+    margin: 0;
+  }
+  .desktop-tiles .is-info {
+    background-color: #212121;
+  }
+  .desktop-tiles .is-info p {
+    margin-left: 18%;
+  }
+  .desktop-tiles .is-info i {
+    margin-left: 37%;
+    font-size: 48px;
+  }
+  .desktop-tiles .is-success {
+    background-color: #212121;
+  }
+  .desktop-tiles .is-success .content img {
+    border-radius: 5%;
+  }
+  .desktop-tiles .is-success .content button {
+    margin-left: 35%;
+  }
+  .desktop-tiles .is-danger {
+    background-color: #212121;
+  }
+  .desktop-tiles .is-danger .content video {
+    width: 225px;
+  }
 }
 /*# sourceMappingURL=mystyles.css.map */
