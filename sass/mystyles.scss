@@ -205,8 +205,49 @@ body{
    }
 }
 
+//LANDSCAPE
 
 
+
+
+@media (orientation: landscape) {
+
+    .logo{
+        position: absolute;
+        top: 120%;
+        background-color: none;
+        width: 75%;
+        left: 50%;
+        transform: translateX(-50%)
+        translateY(-50%);
+        filter: drop-shadow(10px 10px 10px black);
+    }
+
+    .cover{
+        margin-top: 10%;
+        margin-bottom: 15%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: red;
+        width: 50%;
+    
+        p{
+            color: white;
+        }
+       img{
+           width: 256px;
+           border-radius: 5%;
+           height: 300px;
+          
+       }
+       .hello{
+           align-self: flex-end;
+           margin: 10%;
+       }
+    }
+    
+  }
 //TABLET CSS
 
 @media only screen 
