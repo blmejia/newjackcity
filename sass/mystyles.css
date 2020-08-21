@@ -12802,7 +12802,7 @@ body {
     font-size: 48px;
   }
   .desktop-tiles .is-info .fa-instagram {
-    margin: 10px;
+    margin: 0;
   }
   .desktop-tiles .cold .is-success {
     background-color: #212121;
@@ -12874,6 +12874,7 @@ body {
   .desktop-tiles .is-info i {
     margin-left: 30%;
     font-size: 48px;
+    text-decoration: none;
   }
   .desktop-tiles .is-info .fa-instagram {
     margin: 0;
