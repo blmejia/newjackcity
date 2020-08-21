@@ -12427,25 +12427,6 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  /*.cover{  
-           margin: 10%;
-           margin-top: 15%;
-          //background-color: red;
-           
-           width: 20%;
-           img{
-               border-radius: 5%;
-   
-           }
-           p{
-            margin-left: 15%;   
-            color: white;
-            
-           }
-           button{
-               margin-left: 35%;
-           }
-       }*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
