@@ -20,7 +20,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
+    a{
+        text-decoration: none;
+    }
+
     .navbar-item{
         color: white;
     }
@@ -505,7 +509,7 @@ body{
                     
                    }
                    .fa-instagram{
-                           margin: 0;
+                           margin: 10px;
                    }
                
               

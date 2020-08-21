@@ -12370,6 +12370,10 @@ body {
       flex-wrap: wrap;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar .navbar-item {
   color: white;
 }
@@ -12798,7 +12802,7 @@ body {
     font-size: 48px;
   }
   .desktop-tiles .is-info .fa-instagram {
-    margin: 0;
+    margin: 10px;
   }
   .desktop-tiles .cold .is-success {
     background-color: #212121;
