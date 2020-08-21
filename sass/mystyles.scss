@@ -66,7 +66,9 @@ body{
         font-size: 24px;
     color: #fff;
     display: flex;
-    justify-content: space-evenly; body {
+    justify-content: space-evenly; 
+    
+    body {
         //background-color: lightgreen;
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("/img/nyc.jpg");
@@ -83,10 +85,10 @@ body{
            left: 20%;
        }
    
-       .cover-desktop{
+       /*.cover{  
            margin: 10%;
            margin-top: 15%;
-          // background-color: red;
+          //background-color: red;
            
            width: 20%;
            img{
@@ -101,7 +103,7 @@ body{
            button{
                margin-left: 35%;
            }
-       }
+       }*/
    
        .desktop-tiles{
            display: flex;
@@ -205,6 +207,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    //background-color: red;
 
     p{
         color: white;
@@ -212,7 +215,7 @@ body{
    img{
        width: 256px;
        border-radius: 5%;
-       height: 256px;
+       height: 300px;
       
    }
    .hello{
@@ -244,143 +247,17 @@ body{
             font-size: 24px;
         }
        img{
-           width: 420px; body {
-            //background-color: lightgreen;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-            url("/img/nyc.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
-            
-           }
+           width: 320px;
+           height: 320px;
+           
        
            .logo{
                width: 30%;
                top: 15%;
                left: 20%;
            }
-       
-           .cover-desktop{
-               margin: 10%;
-               margin-top: 15%;
-              // background-color: red;
-               
-               width: 20%;
-               img{
-                   border-radius: 5%;
-       
-               }
-               p{
-                margin-left: 15%;   
-                color: white;
-                
-               }
-               button{
-                   margin-left: 35%;
-               }
-           }
-       
-           .desktop-tiles{
-               display: flex;
-               //background-color: red;
-               top: 30%;
-               width: 65%;
-               .is-primary{
-                   background-color: #212121;
-                  
-                   
-                   p{
-                      margin-left: 25%;
-                   }
-                   i{  align-self: flex-end;
-                       font-size: 32px;
-                       margin-left: 20%;
-                   }
-               }
-             
-               .tile{
-                   height: 60vh;
-                   width: auto;
-                   margin: 0;
-       
-               }
-       
-               .is-info{
-                   background-color: #212121;
-                   
-                   
-       
-            
-                       p{
-                           margin-top: 20%;
-                           margin-left: 18%;
-                       }
-                       i{
-           
-                           margin-left: 25%;
-                           font-size: 48px;
-           
-                           
-                        
-                       }
-                       .fa-instagram{
-                               margin: 0;
-                       }
-                   
-                  
-               }
-               .cold{
-                  
-               .is-success{
-                   
-                   background-color: #212121;
-             
-                   margin: 0;
-                   .content{
-                     margin-top: 10%;
-                     display: flex;
-                     justify-content: center;
-                     flex-wrap: wrap;
-                       
-                       p{
-                           font-size: 22px;
-                       }
-                    
-                       img{
-                           border-radius: 5%;
-                           width: 300px;
-                           
-                       }
-                       button{
-                          margin-top: 15%;
-                       }
-                   }
-               }
-           }
-       
-               .is-danger{
-                   background-color: #212121;
-                   padding-bottom: 10px;
-                 .content{
-                       
-                     video{
-                        padding: 5px;
-                         width: 225px;
-                         
-                     }
-                 }
-               }
-           }
-           
-           
+        }
           
-       }
-       .hello{
-           align-self: flex-end;
-           margin: 10%;
-        
-       }
     }
 }
 
