@@ -12432,6 +12432,127 @@ body {
           align-items: center;
 }
 
+.stream .icons body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.stream .icons .logo {
+  width: 30%;
+  top: 15%;
+  left: 20%;
+}
+
+.stream .icons .cover-desktop {
+  margin: 10%;
+  margin-top: 15%;
+  width: 20%;
+}
+
+.stream .icons .cover-desktop img {
+  border-radius: 5%;
+}
+
+.stream .icons .cover-desktop p {
+  margin-left: 15%;
+  color: white;
+}
+
+.stream .icons .cover-desktop button {
+  margin-left: 35%;
+}
+
+.stream .icons .desktop-tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 30%;
+  width: 65%;
+}
+
+.stream .icons .desktop-tiles .is-primary {
+  background-color: #212121;
+}
+
+.stream .icons .desktop-tiles .is-primary p {
+  margin-left: 25%;
+}
+
+.stream .icons .desktop-tiles .is-primary i {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 32px;
+  margin-left: 20%;
+}
+
+.stream .icons .desktop-tiles .tile {
+  height: 60vh;
+  width: auto;
+  margin: 0;
+}
+
+.stream .icons .desktop-tiles .is-info {
+  background-color: #212121;
+}
+
+.stream .icons .desktop-tiles .is-info p {
+  margin-top: 20%;
+  margin-left: 18%;
+}
+
+.stream .icons .desktop-tiles .is-info i {
+  margin-left: 25%;
+  font-size: 48px;
+}
+
+.stream .icons .desktop-tiles .is-info .fa-instagram {
+  margin: 0;
+}
+
+.stream .icons .desktop-tiles .cold .is-success {
+  background-color: #212121;
+  margin: 0;
+}
+
+.stream .icons .desktop-tiles .cold .is-success .content {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.stream .icons .desktop-tiles .cold .is-success .content p {
+  font-size: 22px;
+}
+
+.stream .icons .desktop-tiles .cold .is-success .content img {
+  border-radius: 5%;
+  width: 300px;
+}
+
+.stream .icons .desktop-tiles .cold .is-success .content button {
+  margin-top: 15%;
+}
+
+.stream .icons .desktop-tiles .is-danger {
+  background-color: #212121;
+  padding-bottom: 10px;
+}
+
+.stream .icons .desktop-tiles .is-danger .content video {
+  padding: 5px;
+  width: 225px;
+}
+
 .cover {
   margin-top: 10%;
   margin-bottom: 15%;
@@ -12461,7 +12582,7 @@ body {
   margin: 10%;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1022px) and (-webkit-min-device-pixel-ratio: 1) {
   .cover {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12479,8 +12600,105 @@ body {
   }
   .cover img {
     width: 420px;
+  }
+  .cover img body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .cover img .logo {
+    width: 30%;
+    top: 15%;
+    left: 20%;
+  }
+  .cover img .cover-desktop {
+    margin: 10%;
+    margin-top: 15%;
+    width: 20%;
+  }
+  .cover img .cover-desktop img {
     border-radius: 5%;
-    height: 420px;
+  }
+  .cover img .cover-desktop p {
+    margin-left: 15%;
+    color: white;
+  }
+  .cover img .cover-desktop button {
+    margin-left: 35%;
+  }
+  .cover img .desktop-tiles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 30%;
+    width: 65%;
+  }
+  .cover img .desktop-tiles .is-primary {
+    background-color: #212121;
+  }
+  .cover img .desktop-tiles .is-primary p {
+    margin-left: 25%;
+  }
+  .cover img .desktop-tiles .is-primary i {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 32px;
+    margin-left: 20%;
+  }
+  .cover img .desktop-tiles .tile {
+    height: 60vh;
+    width: auto;
+    margin: 0;
+  }
+  .cover img .desktop-tiles .is-info {
+    background-color: #212121;
+  }
+  .cover img .desktop-tiles .is-info p {
+    margin-top: 20%;
+    margin-left: 18%;
+  }
+  .cover img .desktop-tiles .is-info i {
+    margin-left: 25%;
+    font-size: 48px;
+  }
+  .cover img .desktop-tiles .is-info .fa-instagram {
+    margin: 0;
+  }
+  .cover img .desktop-tiles .cold .is-success {
+    background-color: #212121;
+    margin: 0;
+  }
+  .cover img .desktop-tiles .cold .is-success .content {
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cover img .desktop-tiles .cold .is-success .content p {
+    font-size: 22px;
+  }
+  .cover img .desktop-tiles .cold .is-success .content img {
+    border-radius: 5%;
+    width: 300px;
+  }
+  .cover img .desktop-tiles .cold .is-success .content button {
+    margin-top: 15%;
+  }
+  .cover img .desktop-tiles .is-danger {
+    background-color: #212121;
+    padding-bottom: 10px;
+  }
+  .cover img .desktop-tiles .is-danger .content video {
+    padding: 5px;
+    width: 225px;
   }
   .cover .hello {
     -ms-flex-item-align: end;
@@ -12489,7 +12707,110 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .logo {
+    width: 30%;
+    top: 15%;
+    left: 20%;
+  }
+  .cover-desktop {
+    margin: 10%;
+    margin-top: 15%;
+    width: 20%;
+  }
+  .cover-desktop img {
+    border-radius: 5%;
+  }
+  .cover-desktop p {
+    margin-left: 15%;
+    color: white;
+  }
+  .cover-desktop button {
+    margin-left: 35%;
+  }
+  .desktop-tiles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 30%;
+    width: 90%;
+    height: 50vh;
+  }
+  .desktop-tiles .is-primary {
+    background-color: #212121;
+  }
+  .desktop-tiles .is-primary p {
+    margin-left: 25%;
+  }
+  .desktop-tiles .is-primary i {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 32px;
+    margin-left: 20%;
+  }
+  .desktop-tiles .tile {
+    height: 40vh;
+    width: auto;
+    margin: 0;
+  }
+  .desktop-tiles .is-info {
+    background-color: #212121;
+  }
+  .desktop-tiles .is-info p {
+    margin-top: 20%;
+    margin-left: 18%;
+  }
+  .desktop-tiles .is-info i {
+    margin-left: 25%;
+    font-size: 48px;
+  }
+  .desktop-tiles .is-info .fa-instagram {
+    margin: 0;
+  }
+  .desktop-tiles .cold .is-success {
+    background-color: #212121;
+    margin: 0;
+  }
+  .desktop-tiles .cold .is-success .content {
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .desktop-tiles .cold .is-success .content p {
+    font-size: 22px;
+  }
+  .desktop-tiles .cold .is-success .content img {
+    border-radius: 5%;
+    width: 300px;
+  }
+  .desktop-tiles .cold .is-success .content button {
+    margin-top: 15%;
+  }
+  .desktop-tiles .is-danger {
+    background-color: #212121;
+    padding-bottom: 10px;
+  }
+  .desktop-tiles .is-danger .content video {
+    padding: 5px;
+    width: 225px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
   body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
