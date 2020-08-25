@@ -7,7 +7,7 @@
     <title>HiRollers | NewJack City</title>
     <link rel="stylesheet" href="sass/mystyles.css">
   
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -96,12 +96,12 @@
       </div>
     <br>
 
-    <section class="container stack is-hidden-desktop">
+    <section class="container stack is-hidden-desktop" data-aos="fade-up" data-aos-duration="3000">
       <p class="subtitle ">NewJack WRE "STACK" out now!</p>
       <iframe width="320" height="315" src="https://www.youtube.com/embed/u0LaoQks5mY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 <hr>
-    <section class="container cover is-hidden-desktop  ">
+    <section class="container cover is-hidden-desktop" data-aos="fade-up" data-aos-duration="3000">
       <p class="subtitle ">New single "COLD" out now!</p>
       <img src="img/cold.png" >
       <div class="hello"><a href="https://music.apple.com/us/artist/hirollers/1511234686"  target="blank"><button class="button is-medium">Listen Now</button></div>
@@ -182,7 +182,10 @@
 
 
    
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
       <script src="JavaScript/app.js"></script>
   </body>
 </html>
