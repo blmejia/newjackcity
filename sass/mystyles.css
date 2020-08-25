@@ -12794,6 +12794,7 @@ body hr {
     width: auto;
   }
   .stack-desktop p {
+    margin-left: 2%;
     color: #fff;
   }
   .stack-desktop iframe {
