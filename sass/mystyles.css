@@ -12785,6 +12785,15 @@ body hr {
   .desktop-tiles .is-danger .content video {
     padding: 5px;
     width: 225px;
+    height: 150px;
+  }
+  .desktop-tiles .is-danger .content #sid {
+    position: absolute;
+    margin-left: 10px;
+  }
+  .desktop-tiles .is-danger .content #wre {
+    position: absolute;
+    right: 30%;
   }
   .stack-desktop {
     position: relative;
@@ -12974,6 +12983,13 @@ body hr {
   .desktop-tiles .is-danger .content video {
     margin: 5px;
     width: 225px;
+  }
+  .desktop-tiles .is-danger .content #sid {
+    position: absolute;
+  }
+  .desktop-tiles .is-danger .content #wre {
+    position: absolute;
+    right: 30%;
   }
 }
 /*# sourceMappingURL=mystyles.css.map */

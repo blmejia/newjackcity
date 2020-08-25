@@ -464,10 +464,18 @@ body{
           .content{
                 
               video{
-                 padding: 5px;
-                  width: 225px;
-                  
+                padding: 5px;
+                width: 225px;
+                height: 150px; 
               }
+              #sid{
+                position: absolute;
+                margin-left: 10px;
+            }
+            #wre{
+              position: absolute;
+              right: 30%;
+          }
           }
         }
     }
@@ -713,9 +721,14 @@ body{
               video{
                   margin: 5px;
                   width: 225px;
-                
-                  
               }
+              #sid{
+                  position: absolute;
+              }
+              #wre{
+                position: absolute;
+                right: 30%;
+            }
           }
         }
     }
