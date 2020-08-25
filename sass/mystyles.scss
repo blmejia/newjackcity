@@ -247,6 +247,17 @@ body{
         filter: drop-shadow(10px 10px 10px black);
     }
 
+
+    .stack{
+        margin-top: 10%;
+        margin-bottom: 15%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+       // background-color: red;
+        width: 50%;
+    }
+
     .cover{
         margin-top: 10%;
         margin-bottom: 15%;
@@ -280,6 +291,19 @@ body{
   and (-webkit-min-device-pixel-ratio: 1) {
 
 
+
+
+    .stack{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+    
+        p{
+            color: white;
+            font-size: 24px;
+        }
+    }
 
     .cover{
        //background-color: red;
