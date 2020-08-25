@@ -10118,6 +10118,7 @@ body hr {
   .desktop-tiles {
     display: flex;
     top: 30%;
+    right: 20%;
     width: 90%;
     height: 60vh;
   }
@@ -10178,6 +10179,20 @@ body hr {
   .desktop-tiles .is-danger .content video {
     padding: 5px;
     width: 225px;
+  }
+
+  .stack-desktop {
+    position: relative;
+    left: 60%;
+    bottom: 20%;
+    height: 40vh;
+    width: auto;
+  }
+  .stack-desktop p {
+    color: #fff;
+  }
+  .stack-desktop iframe {
+    height: 30vh;
   }
 }
 @media only screen and (min-device-width: 1280px) {
