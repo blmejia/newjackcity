@@ -68,3 +68,13 @@ nav{
     text-decoration: none;
     color: black;
 }
+
+.mobile-only{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   p{
+    color: #fff;
+   }
+}
