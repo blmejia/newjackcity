@@ -12354,13 +12354,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   overflow-y: hidden;
 }
 
-body {
-  background-color: #212121;
-}
-
-body hr {
+* hr {
   width: 50%;
   margin-left: 25%;
+}
+
+body {
+  background-color: #212121;
 }
 
 .navbar {
@@ -12441,106 +12441,10 @@ body hr {
           align-items: center;
 }
 
-.stream .icons body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
 .stream .icons .logo {
   width: 30%;
   top: 15%;
   left: 20%;
-}
-
-.stream .icons .desktop-tiles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  top: 30%;
-  width: 65%;
-}
-
-.stream .icons .desktop-tiles .is-primary {
-  background-color: #212121;
-}
-
-.stream .icons .desktop-tiles .is-primary p {
-  margin-left: 25%;
-}
-
-.stream .icons .desktop-tiles .is-primary i {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  font-size: 32px;
-  margin-left: 20%;
-}
-
-.stream .icons .desktop-tiles .tile {
-  height: 60vh;
-  width: auto;
-  margin: 0;
-}
-
-.stream .icons .desktop-tiles .is-info {
-  background-color: #212121;
-}
-
-.stream .icons .desktop-tiles .is-info p {
-  margin-top: 20%;
-  margin-left: 18%;
-}
-
-.stream .icons .desktop-tiles .is-info i {
-  margin-left: 25%;
-  font-size: 48px;
-}
-
-.stream .icons .desktop-tiles .is-info .fa-instagram {
-  margin: 0;
-}
-
-.stream .icons .desktop-tiles .cold .is-success {
-  background-color: #212121;
-  margin: 0;
-}
-
-.stream .icons .desktop-tiles .cold .is-success .content {
-  margin-top: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.stream .icons .desktop-tiles .cold .is-success .content p {
-  font-size: 22px;
-}
-
-.stream .icons .desktop-tiles .cold .is-success .content img {
-  border-radius: 5%;
-  width: 300px;
-}
-
-.stream .icons .desktop-tiles .cold .is-success .content button {
-  margin-top: 15%;
-}
-
-.stream .icons .desktop-tiles .is-danger {
-  background-color: #212121;
-  padding-bottom: 10px;
-}
-
-.stream .icons .desktop-tiles .is-danger .content video {
-  padding: 5px;
-  width: 225px;
 }
 
 .stack {
@@ -12684,6 +12588,450 @@ body hr {
   }
 }
 
+/*
+
+//DESKTOP
+@media screen and (min-width: 1024px)
+
+ {
+    body {
+     //background-color: lightgreen;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+     url("/img/nyc.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     
+    }
+
+    .logo{
+        width: 30%;
+        top: 10%;
+        left: 20%;
+    }
+
+
+ 
+
+    .cover-desktop{
+        margin: 10%;
+        margin-top: 15%;
+       // background-color: red;
+        
+        width: 20%;
+        img{
+            border-radius: 5%;
+
+        }
+        p{
+         margin-left: 15%;   
+         color: white;
+         
+        }
+        button{
+            margin-left: 35%;
+        }
+    }
+
+    .desktop-tiles{
+        display: flex;
+        //background-color: red;
+        top: 20%;
+       
+        width: 90%;
+        height: 60vh;
+        .is-primary{
+            background-color: #212121;
+           
+            
+            p{
+               margin-left: 25%;
+               margin-top: 10%;
+            }
+            i{  align-self: flex-end;
+                font-size: 32px;
+                margin-left: 20%;
+            }
+        }
+      
+        .tile{
+            height: 45vh;
+            width: auto;
+            margin: 0;
+
+        }
+
+        .is-info{
+            background-color: #212121;
+            
+            
+
+     
+                p{
+                    margin-top: 30%;
+                    margin-left: 18%;
+                }
+                i{
+    
+                    margin-left: 25%;
+                    font-size: 48px;
+    
+                    
+                 
+                }
+                .fa-instagram{
+                        margin: 0;
+                }
+            
+           
+        }
+        .cold{
+           
+        .is-success{
+            
+            background-color: #212121;
+      
+            
+            .content{
+              margin-top: 20%;
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+                
+                p{
+                    font-size: 22px;
+                }
+             
+                img{
+                    border-radius: 5%;
+                    width: 300px;
+                    
+                }
+                button{
+                   margin-top: 15%;
+                }
+            }
+        }
+    }
+
+        .is-danger{
+            background-color: #212121;
+            padding-bottom: 10px;
+          .content{
+                
+              video{
+                padding: 5px;
+                width: 225px;
+                height: 150px; 
+              }
+              #sid{
+                position: absolute;
+                margin-left: 10px;
+            }
+            #wre{
+              position: absolute;
+              right: 30%;
+          }
+          }
+        }
+    }
+
+    .stack-desktop{
+       //background-color: red;
+       position: relative;
+       left: 22%;
+       bottom: -10%;
+       height: 25vh;
+       width: auto;
+
+       p{
+           margin-left: 2%;
+           color: #fff;
+       }
+
+       iframe{
+           height: 30vh;
+       }
+    }
+    
+   
+  }
+
+@media only screen and (min-device-width: 1280px){
+    body {
+        //background-color: lightgreen;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/img/nyc.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        
+       }
+   
+       .logo{
+           width: 30%;
+           top: 15%;
+           left: 20%;
+       }
+   
+       .cover-desktop{
+           margin: 10%;
+           margin-top: 15%;
+          // background-color: red;
+           
+           width: 20%;
+           img{
+               border-radius: 5%;
+   
+           }
+           p{
+            margin-left: 15%;   
+            color: white;
+            
+           }
+           button{
+               margin-left: 35%;
+           }
+       }
+   
+       .desktop-tiles{
+           display: flex;
+           //background-color: red;
+           top: 30%;
+           right: 15%;
+           width: 65%;
+           .is-primary{
+               background-color: #212121;
+              
+               
+               p{
+                  margin-left: 25%;
+               }
+               i{  align-self: flex-end;
+                   font-size: 32px;
+                   margin-left: 20%;
+               }
+           }
+         
+           .tile{
+               height: 60vh;
+               width: auto;
+               margin: 0;
+   
+           }
+   
+           .is-info{
+               background-color: #212121;
+               
+               
+   
+        
+                   p{
+                       margin-top: 20%;
+                       margin-left: 18%;
+                   }
+                   i{
+       
+                       margin-left: 25%;
+                       font-size: 48px;
+       
+                       
+                    
+                   }
+                   .fa-instagram{
+                           margin: 0;
+                   }
+               
+              
+           }
+           .cold{
+              
+           .is-success{
+               
+               background-color: #212121;
+         
+               margin: 0;
+               .content{
+                 margin-top: 10%;
+                 display: flex;
+                 justify-content: center;
+                 flex-wrap: wrap;
+                   
+                   p{
+                       font-size: 22px;
+                   }
+                
+                   img{
+                       border-radius: 5%;
+                       width: 300px;
+                       
+                   }
+                   button{
+                      margin-top: 15%;
+                   }
+               }
+           }
+       }
+   
+           .is-danger{
+               background-color: #212121;
+               padding-bottom: 10px;
+             .content{
+                   
+                 video{
+                    padding: 5px;
+                     width: 225px;
+                     
+                 }
+             }
+           }
+       }
+       .stack-desktop{
+       // background-color: red;
+        position: relative;
+        left: 70%;
+        bottom: 15%;
+        height: 35vh;
+        width: 25%;
+ 
+        p{
+            margin-right: 5%;
+            color: #fff;
+            font-size: 18px;
+        }
+ 
+        iframe{
+            height: 30vh;
+            width: 300px;
+        }
+     }
+       
+}
+//1080p UP
+  @media only screen 
+  and (min-device-width: 1800px) 
+
+  and (-webkit-min-device-pixel-ratio: 1){
+    .desktop-tiles{
+        display: flex;
+        //background-color: red;
+        top: 30%;
+        right: 20%;
+        width: 50%;
+        .is-primary{
+            background-color: #212121;
+           
+            
+            p{
+               margin-left: 25%;
+            }
+            i{  align-self: flex-end;
+                font-size: 32px;
+                margin-left: 20%;
+            }
+        }
+      
+        .tile{
+            height: 60vh;
+            width: auto;
+            margin: 0;
+
+        }
+
+        .is-info{
+            background-color: #212121;
+         
+            
+
+
+            p{
+                
+                margin-left: 25%;
+                margin-top: 25%;
+            }
+            i{
+                margin-left: 30%;
+                font-size: 48px;
+                text-decoration: none;
+             
+            }
+            .fa-instagram{
+                margin: 0;
+        }
+        }
+        .cold{
+           
+        .is-success{
+            
+            background-color: #212121;
+      
+          
+            .content{
+                margin-top: 10%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                
+             
+                p{
+                    font-size: 24px;
+                }
+
+                img{
+                    border-radius: 5%;
+                    width: 300px;
+                    
+                }
+                button{
+                    margin-top: 15%;
+                }
+            }
+        }
+    }
+
+        .is-danger{
+            background-color: #212121;
+            //height: 40vh;
+          .content{
+              
+              video{
+                  margin: 5px;
+                  width: 225px;
+              }
+              #sid{
+                  position: absolute;
+              }
+              #wre{
+                position: absolute;
+                right: 30%;
+            }
+          }
+        }
+    }
+    .stack-desktop{
+        //background-color: red;
+         position: relative;
+         left: 65%;
+         bottom: 20%;
+         height: 35vh;
+         width: auto;
+  
+         p{
+             margin-left: 0%;
+             color: #fff;
+             font-size: 28px;
+         }
+  
+         iframe{
+             height: 30vh;
+             width: 500px;
+         }
+      }
+  }
+
+  */
 @media screen and (min-width: 1024px) {
   body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
@@ -12693,336 +13041,230 @@ body hr {
     background-size: cover;
     height: 100vh;
   }
-  .logo {
-    width: 30%;
-    top: 10%;
-    left: 20%;
-  }
-  .cover-desktop {
-    margin: 10%;
-    margin-top: 15%;
-    width: 20%;
-  }
-  .cover-desktop img {
-    border-radius: 5%;
-  }
-  .cover-desktop p {
-    margin-left: 15%;
-    color: white;
-  }
-  .cover-desktop button {
-    margin-left: 35%;
-  }
-  .desktop-tiles {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    top: 20%;
-    width: 90%;
-    height: 60vh;
-  }
-  .desktop-tiles .is-primary {
-    background-color: #212121;
-  }
-  .desktop-tiles .is-primary p {
-    margin-left: 25%;
-    margin-top: 10%;
-  }
-  .desktop-tiles .is-primary i {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    font-size: 32px;
-    margin-left: 20%;
-  }
-  .desktop-tiles .tile {
-    height: 45vh;
-    width: auto;
-    margin: 0;
-  }
-  .desktop-tiles .is-info {
-    background-color: #212121;
-  }
-  .desktop-tiles .is-info p {
-    margin-top: 30%;
-    margin-left: 18%;
-  }
-  .desktop-tiles .is-info i {
-    margin-left: 25%;
-    font-size: 48px;
-  }
-  .desktop-tiles .is-info .fa-instagram {
-    margin: 0;
-  }
-  .desktop-tiles .cold .is-success {
-    background-color: #212121;
-  }
-  .desktop-tiles .cold .is-success .content {
-    margin-top: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .desktop-tiles .cold .is-success .content p {
-    font-size: 22px;
-  }
-  .desktop-tiles .cold .is-success .content img {
-    border-radius: 5%;
-    width: 300px;
-  }
-  .desktop-tiles .cold .is-success .content button {
-    margin-top: 15%;
-  }
-  .desktop-tiles .is-danger {
-    background-color: #212121;
-    padding-bottom: 10px;
-  }
-  .desktop-tiles .is-danger .content video {
-    padding: 5px;
-    width: 225px;
-    height: 150px;
-  }
-  .desktop-tiles .is-danger .content #sid {
-    position: absolute;
-    margin-left: 10px;
-  }
-  .desktop-tiles .is-danger .content #wre {
-    position: absolute;
-    right: 30%;
-  }
-  .stack-desktop {
-    position: relative;
-    left: 22%;
-    bottom: -10%;
-    height: 25vh;
-    width: auto;
-  }
-  .stack-desktop p {
-    margin-left: 2%;
-    color: #fff;
-  }
-  .stack-desktop iframe {
-    height: 30vh;
-  }
 }
 
-@media only screen and (min-device-width: 1280px) {
-  body {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-  .logo {
-    width: 30%;
-    top: 15%;
-    left: 20%;
-  }
-  .cover-desktop {
-    margin: 10%;
-    margin-top: 15%;
-    width: 20%;
-  }
-  .cover-desktop img {
-    border-radius: 5%;
-  }
-  .cover-desktop p {
-    margin-left: 15%;
-    color: white;
-  }
-  .cover-desktop button {
-    margin-left: 35%;
-  }
-  .desktop-tiles {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    top: 30%;
-    right: 15%;
-    width: 65%;
-  }
-  .desktop-tiles .is-primary {
-    background-color: #212121;
-  }
-  .desktop-tiles .is-primary p {
-    margin-left: 25%;
-  }
-  .desktop-tiles .is-primary i {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    font-size: 32px;
-    margin-left: 20%;
-  }
-  .desktop-tiles .tile {
-    height: 60vh;
-    width: auto;
-    margin: 0;
-  }
-  .desktop-tiles .is-info {
-    background-color: #212121;
-  }
-  .desktop-tiles .is-info p {
-    margin-top: 20%;
-    margin-left: 18%;
-  }
-  .desktop-tiles .is-info i {
-    margin-left: 25%;
-    font-size: 48px;
-  }
-  .desktop-tiles .is-info .fa-instagram {
-    margin: 0;
-  }
-  .desktop-tiles .cold .is-success {
-    background-color: #212121;
-    margin: 0;
-  }
-  .desktop-tiles .cold .is-success .content {
-    margin-top: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .desktop-tiles .cold .is-success .content p {
-    font-size: 22px;
-  }
-  .desktop-tiles .cold .is-success .content img {
-    border-radius: 5%;
-    width: 300px;
-  }
-  .desktop-tiles .cold .is-success .content button {
-    margin-top: 15%;
-  }
-  .desktop-tiles .is-danger {
-    background-color: #212121;
-    padding-bottom: 10px;
-  }
-  .desktop-tiles .is-danger .content video {
-    padding: 5px;
-    width: 225px;
-  }
-  .stack-desktop {
-    position: relative;
-    left: 70%;
-    bottom: 15%;
-    height: 35vh;
-    width: 25%;
-  }
-  .stack-desktop p {
-    margin-right: 5%;
-    color: #fff;
-    font-size: 18px;
-  }
-  .stack-desktop iframe {
-    height: 30vh;
-    width: 300px;
-  }
+.desktop-version .custom-container {
+  margin: 15% 5% 0% 5%;
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-@media only screen and (min-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
-  .desktop-tiles {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    top: 30%;
-    right: 20%;
-    width: 50%;
-  }
-  .desktop-tiles .is-primary {
-    background-color: #212121;
-  }
-  .desktop-tiles .is-primary p {
-    margin-left: 25%;
-  }
-  .desktop-tiles .is-primary i {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    font-size: 32px;
-    margin-left: 20%;
-  }
-  .desktop-tiles .tile {
-    height: 60vh;
-    width: auto;
-    margin: 0;
-  }
-  .desktop-tiles .is-info {
-    background-color: #212121;
-  }
-  .desktop-tiles .is-info p {
-    margin-left: 25%;
-    margin-top: 25%;
-  }
-  .desktop-tiles .is-info i {
-    margin-left: 30%;
-    font-size: 48px;
-    text-decoration: none;
-  }
-  .desktop-tiles .is-info .fa-instagram {
-    margin: 0;
-  }
-  .desktop-tiles .cold .is-success {
-    background-color: #212121;
-  }
-  .desktop-tiles .cold .is-success .content {
-    margin-top: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .desktop-tiles .cold .is-success .content p {
-    font-size: 24px;
-  }
-  .desktop-tiles .cold .is-success .content img {
-    border-radius: 5%;
-    width: 300px;
-  }
-  .desktop-tiles .cold .is-success .content button {
-    margin-top: 15%;
-  }
-  .desktop-tiles .is-danger {
-    background-color: #212121;
-  }
-  .desktop-tiles .is-danger .content video {
-    margin: 5px;
-    width: 225px;
-  }
-  .desktop-tiles .is-danger .content #sid {
-    position: absolute;
-  }
-  .desktop-tiles .is-danger .content #wre {
-    position: absolute;
-    right: 30%;
-  }
-  .stack-desktop {
-    position: relative;
-    left: 65%;
-    bottom: 20%;
-    height: 35vh;
-    width: auto;
-  }
-  .stack-desktop p {
-    margin-left: 0%;
-    color: #fff;
-    font-size: 28px;
-  }
-  .stack-desktop iframe {
-    height: 30vh;
-    width: 500px;
-  }
+.desktop-version .custom-container .grid1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+  width: 50%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.desktop-version .custom-container .grid1 .box1 {
+  background-color: #212121;
+  height: 200px;
+  width: 45%;
+  margin: 1%;
+}
+
+.desktop-version .custom-container .grid1 .box1 .content {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desktop-version .custom-container .grid1 .box1 .content p {
+  margin: 5%;
+  color: #fff;
+}
+
+.desktop-version .custom-container .grid1 .box1 .content .links a {
+  margin-left: 5px;
+  color: #fff;
+}
+
+.desktop-version .custom-container .grid1 .box1 .content .links i {
+  font-size: 48px;
+}
+
+.desktop-version .custom-container .grid1 .box2 {
+  background-color: #212121;
+  height: 200px;
+  width: 45%;
+  margin: 1%;
+}
+
+.desktop-version .custom-container .grid1 .box2 .content {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desktop-version .custom-container .grid1 .box2 .content p {
+  margin: 5% 12% 5% 12%;
+  color: #fff;
+}
+
+.desktop-version .custom-container .grid1 .box2 .content .links a {
+  margin-left: 5px;
+  color: #fff;
+}
+
+.desktop-version .custom-container .grid1 .box2 .content .links i {
+  font-size: 48px;
+}
+
+.desktop-version .custom-container .grid1 .box3 {
+  background-color: #212121;
+  height: 220px;
+  width: 100%;
+  margin: 1%;
+}
+
+.desktop-version .custom-container .grid1 .box3 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.desktop-version .custom-container .grid1 .box3 .content .title {
+  margin: 2% 15% 2% 15%;
+  color: #fff;
+}
+
+.desktop-version .custom-container .grid1 .box3 .content .videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.desktop-version .custom-container .grid1 .box3 .content .videos video {
+  width: 250px;
+  height: 150px;
+}
+
+.desktop-version .custom-container .grid2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 50%;
+}
+
+.desktop-version .custom-container .grid2 .box4 {
+  width: 40%;
+  margin: 1%;
+  height: 420px;
+  background-color: #212121;
+}
+
+.desktop-version .custom-container .grid2 .box4 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.desktop-version .custom-container .grid2 .box4 .content .title {
+  font-size: 24px;
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #fff;
+  text-align: center;
+}
+
+.desktop-version .custom-container .grid2 .box4 .content .cold {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5%;
+}
+
+.desktop-version .custom-container .grid2 .box4 .content .cold img {
+  border-radius: 5%;
+  margin-bottom: 10%;
+}
+
+.desktop-version .custom-container .grid2 .box5 {
+  width: 60%;
+  margin: 1%;
+  height: 420px;
+  background-color: #212121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desktop-version .custom-container .grid2 .box5 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.desktop-version .custom-container .grid2 .box5 .content .title {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+
+.desktop-version .custom-container .grid2 .box5 .content iframe {
+  height: 250px;
+}
+
+.desktop-version .desktop-logo {
+  position: absolute;
+  width: 30%;
+  top: 2%;
+  left: 2%;
 }
 /*# sourceMappingURL=mystyles.css.map */

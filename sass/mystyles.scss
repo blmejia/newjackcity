@@ -6,19 +6,18 @@
     padding: 0;
     height: auto;
     overflow-y: hidden;
-    ;
+    
+    hr{
+        width: 50%;
+       
+        margin-left: 25%;
+    }
    // 
     
 }
 
 body{
     background-color: #212121;
-
-    hr{
-        width: 50%;
-       
-        margin-left: 25%;
-    }
 }
 
 .navbar{
@@ -78,16 +77,6 @@ body{
     display: flex;
     justify-content: space-evenly; 
     
-    body {
-        //background-color: lightgreen;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("/img/nyc.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        
-       }
    
        .logo{
            width: 30%;
@@ -96,97 +85,7 @@ body{
        }
    
      
-       .desktop-tiles{
-           display: flex;
-           //background-color: red;
-           top: 30%;
-           width: 65%;
-           .is-primary{
-               background-color: #212121;
-              
-               
-               p{
-                  margin-left: 25%;
-               }
-               i{  align-self: flex-end;
-                   font-size: 32px;
-                   margin-left: 20%;
-               }
-           }
-         
-           .tile{
-               height: 60vh;
-               width: auto;
-               margin: 0;
-   
-           }
-   
-           .is-info{
-               background-color: #212121;
-               
-               
-   
-        
-                   p{
-                       margin-top: 20%;
-                       margin-left: 18%;
-                   }
-                   i{
-       
-                       margin-left: 25%;
-                       font-size: 48px;
-       
-                       
-                    
-                   }
-                   .fa-instagram{
-                           margin: 0;
-                   }
-               
-              
-           }
-           .cold{
-              
-           .is-success{
-               
-               background-color: #212121;
-         
-               margin: 0;
-               .content{
-                 margin-top: 10%;
-                 display: flex;
-                 justify-content: center;
-                 flex-wrap: wrap;
-                   
-                   p{
-                       font-size: 22px;
-                   }
-                
-                   img{
-                       border-radius: 5%;
-                       width: 300px;
-                       
-                   }
-                   button{
-                      margin-top: 15%;
-                   }
-               }
-           }
-       }
-   
-           .is-danger{
-               background-color: #212121;
-               padding-bottom: 10px;
-             .content{
-                   
-                 video{
-                    padding: 5px;
-                     width: 225px;
-                     
-                 }
-             }
-           }
-       }
+
        
     align-items: center;
     }
@@ -331,7 +230,7 @@ body{
     }
 }
 
-
+/*
 
 //DESKTOP
 @media screen and (min-width: 1024px)
@@ -773,3 +672,214 @@ body{
          }
       }
   }
+
+  */
+
+
+  @media screen and (min-width: 1024px){
+
+    body{
+    
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/img/nyc.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+    
+    }
+
+
+.desktop-version{
+  
+    .custom-container{
+        margin: 15% 5% 0% 5%;
+      //background-color: red;
+      width: auto;
+      height: auto;
+      display: flex;
+
+      .grid1{
+          //background-color: blue;
+          display: flex;
+          flex-wrap: wrap;
+          height: auto;
+          //margin: 2%;
+          width: 50%;
+          justify-content: space-evenly;
+
+          .box1{
+              background-color: #212121;
+              height: 200px;
+              width: 45%;
+              margin: 1%;
+
+              .content{
+                  margin-top: 10%;
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  align-items: center;
+                  
+                  p{
+                    margin: 5%;
+                    color: #fff;
+                    
+                }
+                  .links{
+                  
+                    a{
+                      margin-left: 5px;
+                      color: #fff;
+                    }
+                    i{
+  
+                        
+                        font-size: 48px;
+                    }
+                  }
+                  
+             
+              }
+          }
+          .box2{
+            background-color: #212121;
+            height: 200px;
+            width: 45%;
+            margin: 1%;
+
+            .content{
+                margin-top: 10%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            
+
+                p{
+                    margin: 5% 12% 5% 12%;
+                    color: #fff;
+                    
+                }
+                  .links{
+                  
+                    a{
+                      margin-left: 5px;
+                      color: #fff;
+                    }
+                    i{
+  
+                        
+                        font-size: 48px;
+                    }
+                  }
+               
+            }
+          }
+          .box3{
+            background-color: #212121;
+            height: 220px;
+            width: 100%;
+            margin: 1%;
+
+            .content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .title{
+                    margin: 2% 15% 2% 15%;
+                    color: #fff;
+                }
+                .videos{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    video{
+                        width: 250px;
+                        height: 150px;
+                        
+                    }
+                
+                }
+            }
+          }
+      }
+      .grid2{
+        //background-color: pink;
+        display: flex;
+       // flex-wrap: wrap;
+        height: auto;
+        width: 50%;
+        .box4{
+            width: 40%;
+            margin: 1%;
+            height: 420px;
+            background-color: #212121;
+
+            .content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                .title{
+                    font-size: 24px;
+                    margin-top: 10%;
+                    margin-left: 5%;
+                    color: #fff;
+                    text-align: center;
+
+                }
+                .cold{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    margin: 5%;
+
+                    img{
+                        border-radius: 5%;
+                        margin-bottom: 10%;
+                    }
+                }
+            }
+
+        }
+        .box5{
+            width: 60%;
+            margin: 1%;
+            height: 420px;
+            background-color: #212121;
+            display: flex;
+            align-items: center;
+
+            .content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+              //  align-items: center;
+                .title{
+                    text-align: center;
+                    font-size: 28px;
+                    color: white;
+                }
+                iframe{
+                    height: 250px;
+                }
+            }
+
+        }
+      }
+  }
+
+
+.desktop-logo{
+    //background-color: red;
+    position: absolute;
+    width: 30%;
+    top: 2%;
+    left: 2%;
+}
+
+}
+
