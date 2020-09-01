@@ -13267,4 +13267,229 @@ body {
   top: 2%;
   left: 2%;
 }
+
+@media screen and (min-width: 1800px) {
+  .desktop-version .custom-container {
+    margin: 15% 5% 0% 5%;
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .desktop-version .custom-container .grid1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    width: 50%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .desktop-version .custom-container .grid1 .box1 {
+    background-color: #212121;
+    height: auto;
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content {
+    margin-bottom: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content p {
+    margin: 5%;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content .links a {
+    margin-left: 5px;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content .links i {
+    font-size: 48px;
+  }
+  .desktop-version .custom-container .grid1 .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #212121;
+    height: auto;
+    width: 45%;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content {
+    margin-bottom: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content p {
+    font-size: 34px;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content .links a {
+    margin-left: 5px;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content .links i {
+    font-size: 48px;
+  }
+  .desktop-version .custom-container .grid1 .box3 {
+    background-color: #212121;
+    height: auto;
+    width: 100%;
+    margin: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content .title {
+    margin: 2% 15% 2% 15%;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content .videos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content .videos video {
+    width: 350px;
+    height: 250px;
+  }
+  .desktop-version .custom-container .grid2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 50%;
+  }
+  .desktop-version .custom-container .grid2 .box4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+    margin: 1%;
+    height: auto;
+    background-color: #212121;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content .title {
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: #fff;
+    text-align: center;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content .cold {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 5%;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content .cold img {
+    border-radius: 5%;
+    margin-bottom: 10%;
+  }
+  .desktop-version .custom-container .grid2 .box5 {
+    width: 60%;
+    margin: 1%;
+    height: auto;
+    background-color: #212121;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .desktop-version .custom-container .grid2 .box5 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .desktop-version .custom-container .grid2 .box5 .content .title {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+  }
+  .desktop-version .custom-container .grid2 .box5 .content iframe {
+    height: 250px;
+  }
+  .desktop-version .desktop-logo {
+    position: absolute;
+    width: 30%;
+    top: 2%;
+    left: 2%;
+  }
+}
 /*# sourceMappingURL=mystyles.css.map */
