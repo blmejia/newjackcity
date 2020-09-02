@@ -13032,7 +13032,7 @@ body {
   }
 
   */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
@@ -13043,10 +13043,24 @@ body {
   }
 }
 
+.desktop-version {
+  height: 100%;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .desktop-version .custom-container {
-  margin: 15% 5% 0% 5%;
-  width: auto;
-  height: 60vh;
+  background-color: yellow;
+  width: 80%;
+  height: 55%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13067,7 +13081,7 @@ body {
 
 .desktop-version .custom-container .grid1 .box1 {
   background-color: #212121;
-  height: 200px;
+  height: auto;
   width: 45%;
   margin: 1%;
 }
@@ -13269,9 +13283,20 @@ body {
 }
 
 @media screen and (min-width: 1800px) {
+  .desktop-version {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .desktop-version .custom-container {
-    margin: 15% 5% 0% 5%;
-    width: auto;
+    width: 80%;
     height: 60vh;
     display: -webkit-box;
     display: -ms-flexbox;

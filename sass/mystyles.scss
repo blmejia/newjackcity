@@ -676,7 +676,7 @@ body{
   */
 
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1440px){
 
     body{
     
@@ -692,12 +692,17 @@ body{
 
 
 .desktop-version{
-  
+    height: 100%;
+    
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .custom-container{
-        margin: 15% 5% 0% 5%;
-      //background-color: red;
-      width: auto;
-      height: 60vh;
+       // margin: 15% 5% 0% 5%;
+      background-color: yellow;
+      width: 80%;
+      height: 55%;
       display: flex;
 
       .grid1{
@@ -711,7 +716,7 @@ body{
 
           .box1{
               background-color: #212121;
-              height: 200px;
+              height: auto;
               width: 45%;
               margin: 1%;
 
@@ -885,11 +890,14 @@ body{
 
 @media screen and (min-width: 1800px){
     .desktop-version{
-  
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .custom-container{
-            margin: 15% 5% 0% 5%;
+           // margin: 15% 5% 0% 5%;
         //  background-color: red;
-          width: auto;
+          width: 80%;
           height: 60vh;
           display: flex;
     
