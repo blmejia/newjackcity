@@ -12931,6 +12931,9 @@ body {
     margin: 5% 12% 5% 12%;
     color: #fff;
   }
+  .desktop-version .custom-container .grid1 .box2 .content .links {
+    margin-bottom: 15%;
+  }
   .desktop-version .custom-container .grid1 .box2 .content .links a {
     margin-left: 5px;
     color: #fff;
@@ -13165,6 +13168,9 @@ body {
   .desktop-version .custom-container .grid1 .box2 .content p {
     margin-right: 20px;
     color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content .links {
+    margin-bottom: 15%;
   }
   .desktop-version .custom-container .grid1 .box2 .content .links a {
     margin-left: 5px;
