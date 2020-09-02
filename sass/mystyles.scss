@@ -231,6 +231,220 @@ body{
 }
 
 
+@media screen and (min-width: 1024px){
+    body{
+    
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/img/nyc.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+    
+
+.desktop-version{
+    height: 100%;
+    
+   // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .custom-container{
+       // margin: 15% 5% 0% 5%;
+    //  background-color: yellow;
+      width: 100%;
+      height: auto;
+      display: flex;
+
+      .grid1{
+          //background-color: blue;
+          display: flex;
+          flex-wrap: wrap;
+          height: 100%;
+          //margin: 2%;
+          width: 50%;
+          align-items: center;
+          justify-content: space-evenly;
+
+          .box1{
+              background-color: #212121;
+              height: auto;
+              width: 45%;
+            //  margin: 1%;
+              display: flex;
+              align-items: center;
+
+              .content{
+                  //margin-top: 10%;
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  align-items: center;
+                  
+                  p{
+                    margin: 5%;
+                    color: #fff;
+                    
+                }
+                  .links{
+                  //margin-bottom: 15%;
+                    a{
+                    //  margin-left: 5px;
+                      color: #fff;
+                    }
+                    i{
+  
+                        
+                        font-size: 48px;
+                    }
+                  }
+                  
+             
+              }
+          }
+          .box2{
+            background-color: #212121;
+            height: auto;
+            width: 45%;
+            margin: 1%;
+
+            .content{
+                margin-top: 10%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            
+
+                p{
+                   margin-right: 20px;
+                    color: #fff;
+                    
+                }
+                  .links{
+                  
+                    a{
+                      margin-left: 5px;
+                      color: #fff;
+                    }
+                    i{
+  
+                        
+                        font-size: 48px;
+                    }
+                  }
+               
+            }
+          }
+          .box3{
+            background-color: #212121;
+            height: auto;
+            width: 100%;
+            margin: 1%;
+
+            .content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-items: center;
+
+                .title{
+                    
+                    color: #fff;
+                }
+                .videos{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    video{
+                        width: 250px;
+                        height: 150px;
+                        
+                    }
+                
+                }
+            }
+          }
+      }
+      .grid2{
+        //background-color: pink;
+        display: flex;
+       // flex-wrap: wrap;
+        height: 100%;
+        width: 50%;
+        .box4{
+            width: 40%;
+            margin: 1%;
+            height: auto;
+            background-color: #212121;
+
+            .content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                .title{
+                    font-size: 24px;
+                    margin-top: 10%;
+                    margin-left: 5%;
+                    color: #fff;
+                    text-align: center;
+
+                }
+                .cold{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    margin: 5%;
+
+                    img{
+                        border-radius: 5%;
+                        margin-bottom: 10%;
+                    }
+                }
+            }
+
+        }
+        .box5{
+            width: 60%;
+            margin: 1%;
+            height: auto;
+            background-color: #212121;
+            display: flex;
+            align-items: center;
+
+            .content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+              //  align-items: center;
+                .title{
+                    text-align: center;
+                    font-size: 28px;
+                    color: white;
+                }
+                iframe{
+                    height: 250px;
+                }
+            }
+
+        }
+      }
+  }
+
+
+        .desktop-logo{
+            //background-color: red;
+            position: absolute;
+            width: 30%;
+            top: 2%;
+            left: 2%;
+        }
+
+    }
+}
+
 
   @media screen and (min-width: 1280px){
 
@@ -273,6 +487,9 @@ body{
               height: auto;
               width: 45%;
               margin: 1%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
 
               .content{
                   margin-top: 10%;
@@ -308,6 +525,9 @@ body{
             height: auto;
             width: 45%;
             margin: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             .content{
                 margin-top: 10%;
@@ -483,10 +703,13 @@ body{
               background-color: #212121;
               height: auto;
               width: 45%;
-              margin: 1%;
+              //margin: 1%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
 
               .content{
-                  margin-top: 10%;
+                //  margin-top: 10%;
                   display: flex;
                   flex-wrap: wrap;
                   justify-content: center;
@@ -518,6 +741,9 @@ body{
             height: auto;
             width: 45%;
             margin: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             .content{
                 margin-top: 10%;
@@ -620,7 +846,7 @@ body{
             width: 60%;
             margin: 1%;
             height: auto;
-            background-color: #212121;
+            //background-color: #212121;
             display: flex;
             align-items: center;
 
@@ -673,7 +899,7 @@ body{
               //background-color: blue;
               display: flex;
               flex-wrap: wrap;
-              height: 100%;
+              height: auto;
               //margin: 2%;
               width: 50%;
               justify-content: space-evenly;
@@ -685,6 +911,7 @@ body{
                  
                   display: flex;
                   align-items: center;
+                  justify-content: center;
     
                   .content{
                     //margin-bottom: 15%;
@@ -694,7 +921,7 @@ body{
                     align-items: flex-start;
                       
                       p{
-                        margin: 5%;
+                       // margin: 5%;
                         color: #fff;
                         
                     }
@@ -765,6 +992,7 @@ body{
                     justify-content: center;
                     flex-wrap: wrap;
                     align-items: center;
+                   // margin: 3%;
     
                     .title{
                        // margin: 2% 15% 2% 15%;
@@ -774,6 +1002,7 @@ body{
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: space-between;
+                        align-items: center;
     
                         video{
                             width: 350px;
@@ -789,7 +1018,7 @@ body{
             //background-color: pink;
             display: flex;
            // flex-wrap: wrap;
-            height: 60vh;
+            height: auto;
             width: 50%;
             .box4{
                 display: flex;

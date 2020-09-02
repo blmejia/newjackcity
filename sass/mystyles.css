@@ -12588,6 +12588,233 @@ body {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/nyc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .desktop-version {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .desktop-version .custom-container {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .desktop-version .custom-container .grid1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+    width: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .desktop-version .custom-container .grid1 .box1 {
+    background-color: #212121;
+    height: auto;
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content p {
+    margin: 5%;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content .links a {
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box1 .content .links i {
+    font-size: 48px;
+  }
+  .desktop-version .custom-container .grid1 .box2 {
+    background-color: #212121;
+    height: auto;
+    width: 45%;
+    margin: 1%;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content {
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content p {
+    margin-right: 20px;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content .links a {
+    margin-left: 5px;
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content .links i {
+    font-size: 48px;
+  }
+  .desktop-version .custom-container .grid1 .box3 {
+    background-color: #212121;
+    height: auto;
+    width: 100%;
+    margin: 1%;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content .title {
+    color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content .videos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .desktop-version .custom-container .grid1 .box3 .content .videos video {
+    width: 250px;
+    height: 150px;
+  }
+  .desktop-version .custom-container .grid2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 50%;
+  }
+  .desktop-version .custom-container .grid2 .box4 {
+    width: 40%;
+    margin: 1%;
+    height: auto;
+    background-color: #212121;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content .title {
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: #fff;
+    text-align: center;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content .cold {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 5%;
+  }
+  .desktop-version .custom-container .grid2 .box4 .content .cold img {
+    border-radius: 5%;
+    margin-bottom: 10%;
+  }
+  .desktop-version .custom-container .grid2 .box5 {
+    width: 60%;
+    margin: 1%;
+    height: auto;
+    background-color: #212121;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .desktop-version .custom-container .grid2 .box5 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .desktop-version .custom-container .grid2 .box5 .content .title {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+  }
+  .desktop-version .custom-container .grid2 .box5 .content iframe {
+    height: 250px;
+  }
+  .desktop-version .desktop-logo {
+    position: absolute;
+    width: 30%;
+    top: 2%;
+    left: 2%;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
@@ -12633,6 +12860,15 @@ body {
     height: auto;
     width: 45%;
     margin: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .desktop-version .custom-container .grid1 .box1 .content {
     margin-top: 10%;
@@ -12667,6 +12903,15 @@ body {
     height: auto;
     width: 45%;
     margin: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .desktop-version .custom-container .grid1 .box2 .content {
     margin-top: 10%;
@@ -12854,10 +13099,17 @@ body {
     background-color: #212121;
     height: auto;
     width: 45%;
-    margin: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .desktop-version .custom-container .grid1 .box1 .content {
-    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -12886,6 +13138,15 @@ body {
     height: auto;
     width: 45%;
     margin: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .desktop-version .custom-container .grid1 .box2 .content {
     margin-top: 10%;
@@ -12997,7 +13258,6 @@ body {
     width: 60%;
     margin: 1%;
     height: auto;
-    background-color: #212121;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13057,7 +13317,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    height: 100%;
+    height: auto;
     width: 50%;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -13073,6 +13333,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .desktop-version .custom-container .grid1 .box1 .content {
     display: -webkit-box;
@@ -13088,7 +13351,6 @@ body {
             align-items: flex-start;
   }
   .desktop-version .custom-container .grid1 .box1 .content p {
-    margin: 5%;
     color: #fff;
   }
   .desktop-version .custom-container .grid1 .box1 .content .links a {
@@ -13174,6 +13436,9 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .desktop-version .custom-container .grid1 .box3 .content .videos video {
     width: 350px;
@@ -13183,7 +13448,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 60vh;
+    height: auto;
     width: 50%;
   }
   .desktop-version .custom-container .grid2 .box4 {
