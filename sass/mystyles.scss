@@ -697,14 +697,14 @@ body{
         margin: 15% 5% 0% 5%;
       //background-color: red;
       width: auto;
-      height: auto;
+      height: 50vh;
       display: flex;
 
       .grid1{
           //background-color: blue;
           display: flex;
           flex-wrap: wrap;
-          height: auto;
+          height: 100%;
           //margin: 2%;
           width: 50%;
           justify-content: space-evenly;
@@ -745,7 +745,7 @@ body{
           }
           .box2{
             background-color: #212121;
-            height: 200px;
+            height: auto;
             width: 45%;
             margin: 1%;
 
@@ -779,7 +779,7 @@ body{
           }
           .box3{
             background-color: #212121;
-            height: 220px;
+            height: auto;
             width: 100%;
             margin: 1%;
 
@@ -811,12 +811,12 @@ body{
         //background-color: pink;
         display: flex;
        // flex-wrap: wrap;
-        height: auto;
+        height: 100%;
         width: 50%;
         .box4{
             width: 40%;
             margin: 1%;
-            height: 420px;
+            height: auto;
             background-color: #212121;
 
             .content{
@@ -848,7 +848,7 @@ body{
         .box5{
             width: 60%;
             margin: 1%;
-            height: 420px;
+            height: auto;
             background-color: #212121;
             display: flex;
             align-items: center;
@@ -890,14 +890,14 @@ body{
             margin: 15% 5% 0% 5%;
         //  background-color: red;
           width: auto;
-          height: auto;
+          height: 60vh;
           display: flex;
     
           .grid1{
               //background-color: blue;
               display: flex;
               flex-wrap: wrap;
-              height: auto;
+              height: 100%;
               //margin: 2%;
               width: 50%;
               justify-content: space-evenly;
@@ -1012,7 +1012,7 @@ body{
             //background-color: pink;
             display: flex;
            // flex-wrap: wrap;
-            height: auto;
+            height: 60vh;
             width: 50%;
             .box4{
                 display: flex;

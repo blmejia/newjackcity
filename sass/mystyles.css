@@ -13046,7 +13046,7 @@ body {
 .desktop-version .custom-container {
   margin: 15% 5% 0% 5%;
   width: auto;
-  height: auto;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13058,7 +13058,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: auto;
+  height: 100%;
   width: 50%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -13103,7 +13103,7 @@ body {
 
 .desktop-version .custom-container .grid1 .box2 {
   background-color: #212121;
-  height: 200px;
+  height: auto;
   width: 45%;
   margin: 1%;
 }
@@ -13139,7 +13139,7 @@ body {
 
 .desktop-version .custom-container .grid1 .box3 {
   background-color: #212121;
-  height: 220px;
+  height: auto;
   width: 100%;
   margin: 1%;
 }
@@ -13180,14 +13180,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: auto;
+  height: 100%;
   width: 50%;
 }
 
 .desktop-version .custom-container .grid2 .box4 {
   width: 40%;
   margin: 1%;
-  height: 420px;
+  height: auto;
   background-color: #212121;
 }
 
@@ -13230,7 +13230,7 @@ body {
 .desktop-version .custom-container .grid2 .box5 {
   width: 60%;
   margin: 1%;
-  height: 420px;
+  height: auto;
   background-color: #212121;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13272,7 +13272,7 @@ body {
   .desktop-version .custom-container {
     margin: 15% 5% 0% 5%;
     width: auto;
-    height: auto;
+    height: 60vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13283,7 +13283,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    height: auto;
+    height: 100%;
     width: 50%;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -13408,7 +13408,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: auto;
+    height: 60vh;
     width: 50%;
   }
   .desktop-version .custom-container .grid2 .box4 {
