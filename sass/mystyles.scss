@@ -308,6 +308,9 @@ body{
             height: auto;
             width: 45%;
             margin: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             .content{
                 margin-top: 10%;
@@ -318,12 +321,13 @@ body{
             
 
                 p{
-                   margin-right: 20px;
+                   margin-right: 0%;
                     color: #fff;
                     
                 }
                   .links{
-                  
+                  margin-bottom: 15%;
+                  margin-left: .5%;
                     a{
                       margin-left: 5px;
                       color: #fff;

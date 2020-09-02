@@ -12670,6 +12670,15 @@ body {
     height: auto;
     width: 45%;
     margin: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .desktop-version .custom-container .grid1 .box2 .content {
     margin-top: 10%;
@@ -12686,8 +12695,12 @@ body {
             align-items: center;
   }
   .desktop-version .custom-container .grid1 .box2 .content p {
-    margin-right: 20px;
+    margin-right: 0%;
     color: #fff;
+  }
+  .desktop-version .custom-container .grid1 .box2 .content .links {
+    margin-bottom: 15%;
+    margin-left: .5%;
   }
   .desktop-version .custom-container .grid1 .box2 .content .links a {
     margin-left: 5px;
