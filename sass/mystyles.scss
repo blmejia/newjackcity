@@ -1,6 +1,8 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +15,8 @@
         margin-left: 25%;
     }
    // 
-    
+  
+   
 }
 
 body{
@@ -48,7 +51,9 @@ body{
             background-color: #2793da;
         }
     }
-}.logo{
+}
+
+.logo{
     position: absolute;
     top: 50%;
     background-color: none;

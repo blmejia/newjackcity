@@ -24,7 +24,21 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-  $("#custom-close").modal({
-    closeClass: 'icon-remove',
-    closeText: '!'
-  });
+
+  (openM = () => {
+
+    const modalBtn = document.querySelector('#openModal');
+    const modal = document.querySelector('#show');
+    const closeModal = document.querySelector('#close');
+    //
+    modalBtn.addEventListener('click', function(){
+        modal.classList.add('is-active');
+    });
+    
+    closeModal.addEventListener('click', function(){
+        modal.classList.remove('is-active');
+    });
+    
+    
+    
+    })();

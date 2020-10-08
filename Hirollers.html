@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HiRollers | NewJack City</title>
     <link rel="stylesheet" href="sass/hirollers.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!--- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> --->
+    <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script> 
   </head>
   <body >
     <section class ="is-hidden-desktop">
@@ -19,25 +19,40 @@
         <li class="is-active"><a href="#" aria-current="page">HiRollers</a></li>
       </ul>
       
-      <button class="button is-dark is-small"> <a href="#ex1" rel="modal:open">STREAM MUSIC</a> </button>
+      <button class="button is-dark is-small" id="openModal"> <a >STREAM MUSIC</a> </button>
     
       
     </nav>
     
-    <div id="ex1" class="modal ">
-      <a class="navbar-item" href="https://open.spotify.com/artist/3UsS9LUj9HFT17pEJvEWxE?nd=1&nd=1" target="blank">
-        <i class="fab fa-spotify"></i> Spotify
-      </a>
-      <a class="navbar-item" href="https://music.apple.com/us/artist/hirollers/1511234686" target="blank">
-        <i class="fab fa-apple"></i>    Apple Music
-      </a>
-      <a class="navbar-item" href="" target="blank">
-        <i class="fab fa-youtube"></i> YouTube
-      </a>
-      <a class="navbar-item" href="https://soundcloud.com/newjack10455" target="blank">
-        <i class="fab fa-soundcloud"></i> SoundCloud
-      </a>
-      <a href="#" rel="modal:close" id="close">Close</a>
+  
+
+    <div class="modal" id="show">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Stream Music</p>
+          <a class="delete" id="close"></a>
+         
+        </header>
+        <section class="modal-card-body">
+         
+          <a class="navbar-item" href="https://open.spotify.com/artist/3UsS9LUj9HFT17pEJvEWxE?nd=1&nd=1" target="blank">
+            <i class="fab fa-spotify"></i> Spotify
+          </a>
+          <a class="navbar-item" href="https://music.apple.com/us/artist/hirollers/1511234686" target="blank">
+            <i class="fab fa-apple"></i>    Apple Music
+          </a>
+          <a class="navbar-item" href="" target="blank">
+            <i class="fab fa-youtube"></i> YouTube
+          </a>
+          <a class="navbar-item" href="https://soundcloud.com/newjack10455" target="blank">
+            <i class="fab fa-soundcloud"></i> SoundCloud
+          </a>
+          
+        </section>
+        
+        
+      </div>
     </div>
 
 
