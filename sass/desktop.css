@@ -9030,7 +9030,7 @@ input[type=range]::-ms-thumb {
 }
 
 body {
-  height: 200vh;
+  height: auto;
   font-family: 'Ubuntu', sans-serif;
   background-color: #212121;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/img/nyc.jpg");
@@ -9039,10 +9039,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  width: 100%;
 }
 
 .header .nav {
-  width: 100vw;
+  width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -9117,7 +9118,7 @@ body {
 }
 
 .top-content .content-area {
-  width: 100%;
+  width: 90%;
   height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9193,6 +9194,25 @@ body {
 
 .top-content .content-area .hirollers .scroll-to a i {
   font-size: 50px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel .one {
+  background-color: red;
+}
+
+.carousel .one p {
+  position: relative;
+  bottom: 50%;
+}
+
+.carousel .carousel-item img {
+  width: 350px;
+  height: 350px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 481px) {
